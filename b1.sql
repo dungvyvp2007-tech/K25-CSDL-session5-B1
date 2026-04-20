@@ -6,5 +6,5 @@
 
 select restaurant_name , address , rating
 from Restaurants
-where district = ('Quận 1' or 'Quận 3') and rating > 4.0;
+where (district ='Quận 1' or district ='Quận 3') and rating > 4.0;
 
